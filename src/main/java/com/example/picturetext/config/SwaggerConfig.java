@@ -15,8 +15,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-    private static final String version = "v2.0.1";
-    private static final String updateTime = "2020/12/07";
+    private static final String version = "v1.0.2";
+    private static final String updateTime = "2021/09/17";
 
     @Bean
     public Docket createRestApi() {
@@ -30,10 +30,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         String description = "全部更新历史请查看:/version/record";
-        return new ApiInfoBuilder().title("全双工业务服务")
+        return new ApiInfoBuilder().title("图片内容提取")
                 .description("当前版本:v" + version + "\n更新时间:" + updateTime + "\n" + description)
                 .version(version)
-                .contact(new Contact("朱铁超", "", "ztc@sanhui.cn"))
+                .contact(new Contact("qyq", "", ""))
                 .build();
     }
 }

@@ -1,0 +1,13 @@
+server:
+  port: 9999
+
+
+# 需要被读取的文件,所在的文件夹路径
+source-file-dir: /Users/yuqiqian/Downloads/旅整理/
+
+mine:
+  # 百度识图需要的必要参数
+  baidu:
+    app-id: 22746306
+    app-key: pPADygcE9kEoDlzR69n8psCE
+    secret-key: UDvGBBh2pub7qrWHNgCZovrYvToxbPuv
